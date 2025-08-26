@@ -2,4 +2,22 @@ site_name: MkLorum
 nav:
   - Home: index.md
   - About: about.md
-theme: readthedocs
+  - DocStrings: docstr.md
+
+theme:
+  name: readthedocs
+  highlightjs: true
+  hljs_languages:
+    - yaml
+    - rust
+
+plugins:
+  - search
+  - autorefs
+  - include
+  - mkdocstrings:
+      handlers:
+        python:
+          paths: [src]
+          options:
+            show_source: false
