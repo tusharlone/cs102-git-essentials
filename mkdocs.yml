@@ -6,15 +6,9 @@ nav:
 
 theme:
   name: readthedocs
-  highlightjs: true
-  hljs_languages:
-    - yaml
-    - rust
 
 plugins:
   - mkdocstrings:
       handlers:
         python:
           paths: [src]
-          options:
-            show_source: false
