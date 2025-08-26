@@ -5,7 +5,11 @@ nav:
   - DocStrings: docstr.md
 
 theme:
-  name: mkdocs
+  name: readthedocs
+  highlightjs: true
+  hljs_languages:
+    - yaml
+    - rust
 
 plugins:
   - search
