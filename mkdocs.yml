@@ -12,8 +12,6 @@ theme:
     - rust
 
 plugins:
-  - search
-  - autorefs
   - mkdocstrings:
       handlers:
         python:
