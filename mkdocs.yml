@@ -5,8 +5,8 @@ nav:
   - DocStrings: docstr.md
 
 theme:
-  name: readthedocs
-  
+  name: mkdocs
+
 plugins:
   - search
   - autorefs
